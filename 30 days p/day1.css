@@ -1,0 +1,49 @@
+header{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding:20px;
+}
+.whole{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+#sample{
+    border:  2px solid black;
+    text-align: center;
+    margin: 40px;
+    padding-left: 20px;
+    
+    
+   
+   
+
+}
+button{
+    border: 5px solid black;
+    border-radius: 5px;
+    
+    margin-bottom: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+button:hover{
+    color: pink;
+
+}
+li:hover{
+    color:red;
+}

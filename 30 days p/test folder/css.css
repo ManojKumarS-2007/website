@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust height as needed */
+  }
+  
+  .nav-contents a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .signin-btn a {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  

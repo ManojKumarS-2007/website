@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Student Form</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+        <h2>Student Information</h2>
+        </div>
+        <div id="form">
+            <form action="summa.html" method="get">
+                <label for="fname">FIRSTNAME :</label>
+                <input type="text"id="fname" name="fname" ><br>
+                <label for="lname">LASTNAME :</label>
+                <input type="text"id="lname" name="lname" ><br>
+                <label for="dob">Date Of Birth</label>
+       <select name="" id="">
+        <option value="0">DATE</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+       </select>
+       <select name="" id="">
+        <option value="0">MONTH</option>
+        <option value="jan">Janunary</option>
+        <option value="feb">Feburary</option>
+        <option value="mar">March</option>
+       </select>
+       <select name="" id="">
+        <option value="0">YEAR</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+       </select><br>
+                <label for="email">Email ID :</label>
+                <input type="email" id="email" placeholder="Enter a valid email"><br>
+                <label for="num"> Mobile Number :</label>
+                <input type="number" id="num" placeholder="Enter 10 digit number"><br>
+                <label for="gender">GENDER :</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label><br>
+                <label for="address">Address</label>
+                <textarea name="Address" id="address" cols="30" rows="3"></textarea>  <br> 
+                <label for="state">STATE:</label>
+                <input type="text" id="state"> <br>
+                <label for="COUNTRY">COUNTRY:</label>
+                <input type="text" id="COUNTRY" value="INDIA" disabled>  <br>
+                <label for="hobby">HOBBY :</label>
+                <label for="dancing">Dancing</label>
+                <input type="checkbox" id="dancing">    
+                <label for="singing">Singing</label>
+                <input type="checkbox" id="singing">  
+                <label for="fighting">Walking</label>
+                <input type="checkbox" id="fighting">   <br>
+                <button type="submit">submit</button>
+                <button type="reset">Reset</button>         
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

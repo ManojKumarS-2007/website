@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+.fbimage{
+    margin-right: 80px;
+}
+#container{
+    display:flex;
+    margin: 50px;
+    padding: 50px;
+    width: 450px;
+    height: 200px;
+    background-color:white;
+    text-align: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+    
+}
+#vetti{
+   width: 400px;
+   height: 50px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: none;
+
+    
+}
+#suma{
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border:none;
+    
+
+}
+#summa{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(22, 182, 236);
+    color: white;
+    border: none;
+
+margin: 10px;
+
+}
+#suma1{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(21, 226, 82);
+    color: white;
+    border: none;
+
+margin: 10px;
+
+}
+#one{
+    width: 100%;
+    margin: 0px 50px;
+    text-align: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 430px;
+    margin-right: 260px;
+    text-align: center;
+}
+#suma{
+    border-color: aliceblue;
+}
